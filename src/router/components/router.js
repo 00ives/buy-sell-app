@@ -6,6 +6,7 @@ import {
 import { Root } from '../pages/Root/Root';
 import { BuySell } from '../pages/BuySell';
 import { ErrorPage } from './ErrorPage';
+import { Community } from '../pages/Community';
 
 /**https://reactrouter.com/en/main/utils/create-routes-from-elements */
 export const router = createBrowserRouter(
@@ -20,6 +21,18 @@ export const router = createBrowserRouter(
       path: '/',
       element: <Root />,
       errorElement: <ErrorPage />,
+      children: [
+        {
+          // path: 'buy-sell/:test',
+          path: 'buy-sell',
+          element: <BuySell />,
+        },
+      ],
+    },
+
+    {
+      path: '/community',
+      element: <Community />,
       children: [
         {
           // path: 'buy-sell/:test',
