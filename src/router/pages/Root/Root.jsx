@@ -7,8 +7,8 @@ export const Root = () => {
   // const classes = useStyles();
   return (
     <div>
-      root page
       <NavBar />
+      root page
       <Container>
         <Box>Welcome to Shma-Shmiji</Box>
       </Container>
