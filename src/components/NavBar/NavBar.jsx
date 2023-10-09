@@ -12,13 +12,13 @@ import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
   // const classes = useStyles();
-  const pages = ['Home', 'buy-sell', 'Community', 'Forum', 'Not sure yet'];
+  const pages = ['Home', 'about', 'Forum', 'boards', 'components'];
   const homePageVerification = () => {};
   const testData = [{ id: 1 }, { id: 2 }];
 
   return (
     <Box>
-      <AppBar position='static'>
+      <AppBar position='sticky'>
         <Toolbar>
           <IconButton
             size='large'
@@ -29,7 +29,7 @@ export const NavBar = () => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant='h6'>Shma-shmiji</Typography>
+          <Typography variant='h6'>Bucaneer Barrels</Typography>
           {pages.map((page) => (
             <Button key={page}>
               <Link

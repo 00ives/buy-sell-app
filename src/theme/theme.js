@@ -4,21 +4,39 @@ import { colors } from '@mui/material';
 export const theme = createTheme({
   palette: {
     primary: {
-      main: '#edada3',
+      main: '#075061', // page will be #bfddde
     },
     secondary: {
-      main: '#f9c7be',
+      main: '#83c8d1',
     },
     success: {
-      main: '#42899b',
+      main: '#228693',
     },
     info: {
       main: '#94c4c1',
     },
     warning: {
-      main: '#28405c',
+      main: '#042434',
     },
     error: {
+      main: '#f9c7be',
+    },
+    primary2: {
+      main: '#edada3',
+    },
+    secondary2: {
+      main: '#f9c7be',
+    },
+    success2: {
+      main: '#42899b',
+    },
+    info2: {
+      main: '#94c4c1',
+    },
+    warning2: {
+      main: '#28405c',
+    },
+    error2: {
       main: '#ce6a6c',
     },
   },
@@ -39,4 +57,4 @@ export const theme = createTheme({
   },
 });
 
-export default responsiveFontSizes(theme);
+// export default responsiveFontSizes(theme);

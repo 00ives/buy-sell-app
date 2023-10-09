@@ -8,10 +8,10 @@ export const Root = () => {
   return (
     <div>
       <NavBar />
-      root page
-      <Container>
-        <Box>Welcome to Shma-Shmiji</Box>
-      </Container>
+      {/* root page */}
+      {/* <Container> */}
+      {/* <Box>Bucaneer Barrels</Box> */}
+      {/* </Container> */}
       <Outlet />
     </div>
   );
