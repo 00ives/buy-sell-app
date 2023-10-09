@@ -4,15 +4,15 @@ import {
   Route,
 } from 'react-router-dom';
 import { Root } from '../pages/Root/Root';
-import { BuySell } from '../pages/BuySell';
+import { About } from '../pages/About';
 import { ErrorPage } from './ErrorPage';
-import { Community } from '../pages/Community';
+import { Components } from '../pages/Components';
 
 /**https://reactrouter.com/en/main/utils/create-routes-from-elements */
 export const router = createBrowserRouter(
   // createRoutesFromElements(
   //   <Route path='/' element={<Root />}>
-  //     <Route path='buy-sell' element={<BuySell />} />
+  //     <Route path='buy-sell' element={<About />} />
   //     <Route path='*' errorElement={<ErrorPage />} />
   //   </Route>
   // )
@@ -24,20 +24,20 @@ export const router = createBrowserRouter(
       children: [
         {
           // path: 'buy-sell/:test',
-          path: 'buy-sell',
-          element: <BuySell />,
+          path: 'about',
+          element: <About />,
         },
       ],
     },
 
     {
-      path: '/community',
-      element: <Community />,
+      path: '/components',
+      element: <Components />,
       children: [
         {
           // path: 'buy-sell/:test',
           path: 'buy-sell',
-          element: <BuySell />,
+          element: <About />,
         },
       ],
     },
