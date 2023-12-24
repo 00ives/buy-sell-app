@@ -63,11 +63,11 @@ export const Banner = ({
           </Grid>
           <Grid item md={2}>
             <StyledFocalPoint>
-              Dive into the waves with the sleek and nimble design of our
-              fish-style surfboard. Inspired by the agility of ocean-dwelling
-              fish, this board features a wider nose for effortless paddling and
-              a swallowtail for unparalleled maneuverability. Crafted with
-              precision and innovation, our fish-style surfboard promises an
+              Dive into the waves with the sleek and nimble design of fish-style
+              surfboards. Inspired by the agility of ocean-dwelling fish, this
+              board features a wider nose for effortless paddling and a
+              swallowtail for unparalleled maneuverability. Crafted with
+              precision and innovation, fish-style surfboards promise an
               exhilarating ride that effortlessly carves through the surf with
               style and grace.
             </StyledFocalPoint>
